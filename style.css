@@ -1,0 +1,44 @@
+.LOL{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  animation-direction: reverse;
+  animation-delay: 2s;
+
+  }
+  
+  @keyframes example {
+   /* from {background-color: red;}
+  to {background-color: yellow;}*/
+  /*0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}*/
+   0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:70%; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+  }
+
+  .Bogdan{
+    font-size: 30px;
+    margin-top: 300px;
+   margin-left: 20% ;
+   position: absolute;
+
+
+  }
+
+
+  .Aidin{
+    position: absolute;
+  }
+
+  h1{
+    font-size: 20px;
+  }

@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+h2{
+    color: blueviolet ;
+}
+a{
+   text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+
+
+
+
